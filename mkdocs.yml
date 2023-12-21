@@ -1,0 +1,43 @@
+site_name: DANS Deposit Form for Software Heritage
+# site_url: https://example.com/
+
+repo_name: DANS Deposit Form for Software Heritage
+repo_url: https://github.com/Dans-labs/swh-docs/issues
+
+dev_addr: "127.0.0.1:8080"
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - json
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: False
+      use_pygments: False
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+nav:
+  - DANS Deposit Form for researchers: index.md
+  - DANS Deposit Form for developers: develop.md
+
+plugins:
+  - search
+  - markdownextradata: { }
+  - mermaid2
+
+extra:
+  hyperlink:
+    ext:
+      swh: https://www.softwareheritage.org/
+      ddeposit: https://swh.dansdemo.nl/
+      fc4e: https://faircore4eosc.eu/
+    api:
+      ldn-inbox: https://github.com/ekoi/ldn-inbox-service
