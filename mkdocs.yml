@@ -1,8 +1,8 @@
-site_name: DANS Deposit Form for Software Heritage
+site_name: DANS Dataverse - Software Heritage Deposit Form
 # site_url: https://example.com/
 
-repo_name: DANS Deposit Form for Software Heritage
-repo_url: https://github.com/Dans-labs/swh-docs/issues
+repo_name: DANS Dataverse - Software Heritage Deposit Form
+repo_url: https://github.com/Dans-labs/swh-docs
 
 dev_addr: "127.0.0.1:8080"
 
@@ -11,6 +11,11 @@ theme:
   highlightjs: true
   hljs_languages:
     - json
+
+#theme:
+#  name: mkdocs
+#  nav_style: dark
+
 
 markdown_extensions:
   - admonition
@@ -24,9 +29,15 @@ markdown_extensions:
   - toc:
       permalink: true
 
+# https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
 nav:
-  - DANS Deposit Form for researchers: index.md
-  - DANS Deposit Form for developers: develop.md
+  - Home: 'index.md'
+  - 'Deposit Form for Researchers':
+    - 'Introduction': 'researchers.md'
+    - 'Prerequisites': 'prerequisites.md'
+    - 'Instructions': 'user_manual.md'
+  - Developers documentation:
+    - 'Introduction': 'developers.md'
 
 plugins:
   - search
@@ -37,7 +48,8 @@ extra:
   hyperlink:
     ext:
       swh: https://www.softwareheritage.org/
-      ddeposit: https://swh.dansdemo.nl/
+      deposit: https://swh.dansdemo.nl/
       fc4e: https://faircore4eosc.eu/
-    api:
-      ldn-inbox: https://github.com/ekoi/ldn-inbox-service
+      dataverse: https://dataverse.eosc.dansdemo.nl/
+
+# https://squidfunk.github.io/mkdocs-material/reference/admonitions/
