@@ -33,11 +33,11 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - 'Deposit Form for Researchers':
-    - 'Introduction': 'researchers.md'
-    - 'Prerequisites': 'prerequisites.md'
-    - 'Instructions': 'user_manual.md'
+    - 'Introduction': 'research_intro.md'
+    - 'Prerequisites': 'research_prerequisites.md'
+    - 'Deposit Manual': 'research_manual.md'
   - Developers documentation:
-    - 'Introduction': 'developers.md'
+    - 'Introduction': 'develop_intro.md'
 
 plugins:
   - search

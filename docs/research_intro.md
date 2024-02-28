@@ -13,7 +13,7 @@ At the time of writing, the deposit form is connected to the (DANS) [Dataverse d
 This is where your uploaded files and their relevant metadata will be archived to.  
 The Dataverse target instance may be changed at anytime in the future.
 
-Please read the [prerequisites](prerequisites.md) carefully before continuing to the [deposit manual](user_manual.md) page.  
+Please read the [prerequisites](research_prerequisites.md) carefully before continuing to the [deposit manual](research_manual.md) page.  
 
 
 [FC4E project]: {{ hyperlink.ext.fc4e }}

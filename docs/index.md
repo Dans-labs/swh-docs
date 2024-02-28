@@ -8,9 +8,9 @@ DANS SWH Deposit Form for Researchers
 
 Currently, this documentation targets two groups, i.e:
 
-* [Researchers](researchers.md) that want to archive software code related data, like source code, related datasets and their metadata. This documentation is the closest thing to a user manual.
+* [Researchers](research_intro.md) that want to archive software code related data, like source code, related datasets and their metadata. This documentation is the closest thing to a user manual.
 
-* [Developers](developers.md) that need insight in the applications that make up the entire service. This most closely resembles technical documentation.
+* [Developers](develop_intro.md) that need insight in the applications that make up the entire service. This most closely resembles technical documentation.
 
 [FC4E project]: {{ hyperlink.ext.fc4e }}
 [Dans Deposit]: {{ hyperlink.ext.deposit }}
