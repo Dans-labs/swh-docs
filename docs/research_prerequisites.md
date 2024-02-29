@@ -27,12 +27,17 @@ Done. This was a one-time operation.
     Currently the Deposit form is connected to a 'vanilla' Dataverse instance, on which you need to create a classic "Dataverse account" with your own choosen username and password.
     In the near future, the deposit form will likely be connected to instances where you can also log in with your 'Institutional Account’ (Authentication and Authorisation Infrastructure).
 
-### Step 2: Depost-form account (via Google)
-At the time of writing, the Deposit form only offers federated login via a Google account.
-If you do not have one yet, you should create one to be able to login.
+### Step 2: Depost-form account
+At the time of writing, the Deposit form offers two login methods:
+
+1. Federated login via your Google account.
+2. Local account with your email as username.
+
+If you do not have a Google account, or do not want to use it, you can create a local account:
 
 1. Goto the [DANS Deposit]{target="_blank"} input form
-2. Click on the 'LOG IN' button, and choose ' Sign in with Google'
+2. Click on the 'LOG IN' button; you will be redirected to the 'Sign in to your account' login form
+3. Choose either to 'Sign in' or 'Register' as a (new) user, or choose to 'Sign in with Google'
 
 You are now logged in to the DANS Deposit entry form. You only have to take one more step to deposit data!
 
@@ -50,7 +55,7 @@ Now complete the following steps:
 
 1. Click on 'Check your settings'.
 2. In the next screen, click on 'Get you key here'.
-3. You will be redirected to the connected Dataverse instance in a new window. Log in with your choosen provider (Google), if you were not already logged in.
+3. You will be redirected to the connected Dataverse instance in a new window. Log in with your Dataverse account, that you created in Step 1.
 4. Goto your account settings. This can be reached from the 'user account' top right menu bar, displaying your account name.
 5. Select the 4th entry: 'API Token'.
 6. Click on 'Create Token'. A code consisting of numbers, letters and hyphens will appear (e.g. 'e27338d4-9586-4216-848f-daff9cfcf4c9'). This is your 'API key'.   
