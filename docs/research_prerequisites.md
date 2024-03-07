@@ -16,11 +16,15 @@ To be able to so, you need to supply your [Dataverse API-token](https://guides.d
 1. Goto the [Dataverse demo]{target="_blank"} instance.
 2. Goto 'Sign Up' in the right top menu bar.
 3. Enter your account information
-4. Goto the "Account Information" tab. This tab can also be reached from the 'user account' top right menu bar, 3rd entry: "Account Information".
-5. Click the "Send Verification Email" button.
-6. Check your email and confirm the given 'verify link'.
 
-Done. This was a one-time operation.
+[//]: # (4. Goto the "Account Information" tab. This tab can also be reached from the 'user account' top right menu bar, 3rd entry: "Account Information".)
+
+[//]: # (5. Click the "Send Verification Email" button.)
+
+[//]: # (6. Check your email and confirm the given 'verify link'.)
+
+Done. This was a one-time operation.  
+P.s: At the Demo Dataverse you are not required to verify your email. This may be changed at any time.
 
 !!! note
 
