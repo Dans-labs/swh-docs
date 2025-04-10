@@ -23,13 +23,23 @@ These fields are either ''Required'' or ''recommended''. This is indicated by th
 ### Title field
 This required is the title of your deposit
 ### Subject field
+This is required field. There are twelve subjects to choose from. The subject is used to classify the dataset.
 
 ### Author field
-The depositing author name. This is name associated with your login. Cannot be changed.
+The depositing author name. This is name associated with your login. 
+
+### Software Author field
+The author of the software code. This may be the same as the depositing author, but may also be different.
 
 ### Email field
+The email address of the depositing author. This is the email address associated with your login. It cannot be changed here.
+
+### Additional Author field
+This field is optional. You can add additional authors of the software code or dataset. There are two types of authors: Dataset authors and Software authors.
+You can add multiple authors by clicking the "+ ADD ANOTHER" button. The author type is indicated by the icon next to the author name.
 
 ### Description field
+This is a required field. The description of the dataset. This field is used to describe the dataset in more detail. 
 
 ### Repository URL field
 In the current version, only public [GitHub](https://github.com/){target="_blank"} repositories are allowed for archival at SWH. Make sure you know which repository (url) you want Software Heritage to archive for you.     
@@ -45,7 +55,7 @@ In order to load the form with your saved value's:
 
 1. Click on the dot with your initials on the top right of the form
 2. From the drop-down menu choose "Submissions"
-3. Select a saved from from the "Saved Forms" table
+3. Select a saved from the "Saved Forms" table
 
 ## Submit Data button
 Deposits your form data if validation succeeds.
