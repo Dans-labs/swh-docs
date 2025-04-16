@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Deposit Manual - DANS Dataverse - Software Heritage Deposit Form</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Deposit Manual";
+        var mkdocs_page_input_path = "research_manual.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/json.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> DANS Dataverse - Software Heritage Deposit Form
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Deposit Form for Researchers</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../research_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../research_prerequisites/">Prerequisites</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Deposit Manual</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#tooltips">Tooltips</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#metadata-form">Metadata form</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#title-field">Title field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#subject-field">Subject field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#author-field">Author field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#software-author-field">Software Author field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#email-field">Email field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#additional-author-field">Additional Author field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#description-field">Description field</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#repository-url-field">Repository URL field</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#files-form">Files form</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#save-button">Save button</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#submit-data-button">Submit Data button</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fields-summary-table">Fields Summary table</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Developers documentation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../develop_intro/">Introduction</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">DANS Dataverse - Software Heritage Deposit Form</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Deposit Form for Researchers &raquo;</li>
+      <li>Deposit Manual</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/Dans-labs/swh-docs/edit/master/docs/research_manual.md">Edit on DANS Dataverse - Software Heritage Deposit Form</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="deposit-manual">Deposit manual<a class="headerlink" href="#deposit-manual" title="Permanent link">&para;</a></h1>
+<p>Once you have met the <a href="../research_prerequisites/">prerequisites</a>, you can start using the deposit form.<br />
+This page will explain how to use it and what the options are.  </p>
+<p>Once logged into the <a href="https://swh.dansdemo.nl/" target="_blank">DANS Deposit</a> form click on the "Deposit Data" button, or "Deposit" from the top menu bar.
+Notice that the form is divided into two tabs: "METADATA" and "FILES".</p>
+<h2 id="tooltips">Tooltips<a class="headerlink" href="#tooltips" title="Permanent link">&para;</a></h2>
+<p>In general: The coloured dots provide you with information on the state of a form field (tooltip).
+Hover over a dot to see a brief description of the field and its current status.   </p>
+<p><img alt="Red dot" src="../red_dot.jpg" width="20" /> = Required field (also indicated with an asterix)<br />
+<img alt="Orange dot" src="../orange_dot.jpg" width="20" /> = Recommended field, optional <br />
+<img alt="Green dot" src="../green_dot.jpg" width="20" /> = Validated field, good to go</p>
+<h2 id="metadata-form">Metadata form<a class="headerlink" href="#metadata-form" title="Permanent link">&para;</a></h2>
+<p>Available form fields from the Citation Metadata sub form.
+These fields are either ''Required'' or ''recommended''. This is indicated by the colour of the dots and required fields are additionally marked with an asterix (*).</p>
+<h3 id="title-field">Title field<a class="headerlink" href="#title-field" title="Permanent link">&para;</a></h3>
+<p>This required is the title of your deposit</p>
+<h3 id="subject-field">Subject field<a class="headerlink" href="#subject-field" title="Permanent link">&para;</a></h3>
+<p>This is required field. There are twelve subjects to choose from. The subject is used to classify the dataset.</p>
+<h3 id="author-field">Author field<a class="headerlink" href="#author-field" title="Permanent link">&para;</a></h3>
+<p>The depositing author name. This is name associated with your login. </p>
+<h3 id="software-author-field">Software Author field<a class="headerlink" href="#software-author-field" title="Permanent link">&para;</a></h3>
+<p>The author of the software code. This may be the same as the depositing author, but may also be different.</p>
+<h3 id="email-field">Email field<a class="headerlink" href="#email-field" title="Permanent link">&para;</a></h3>
+<p>The email address of the depositing author. This is the email address associated with your login. It cannot be changed here.</p>
+<h3 id="additional-author-field">Additional Author field<a class="headerlink" href="#additional-author-field" title="Permanent link">&para;</a></h3>
+<p>This field is optional. You can add additional authors of the software code or dataset. There are two types of authors: Dataset authors and Software authors.
+You can add multiple authors by clicking the "+ ADD ANOTHER" button. The author type is indicated by the icon next to the author name.</p>
+<h3 id="description-field">Description field<a class="headerlink" href="#description-field" title="Permanent link">&para;</a></h3>
+<p>This is a required field. The description of the dataset. This field is used to describe the dataset in more detail. </p>
+<h3 id="repository-url-field">Repository URL field<a class="headerlink" href="#repository-url-field" title="Permanent link">&para;</a></h3>
+<p>In the current version, only public <a href="https://github.com/" target="_blank">GitHub</a> repositories are allowed for archival at SWH. Make sure you know which repository (url) you want Software Heritage to archive for you.   <br />
+Other repository types or forges are planned in future releases and will be listed here, when available.</p>
+<h2 id="files-form">Files form<a class="headerlink" href="#files-form" title="Permanent link">&para;</a></h2>
+<p>The (data)files you are about to deposit, must have one of the formats listed on the DANS webpage about <a href="https://dans.knaw.nl/en/file-formats/" target="_blank">file formats</a>.<br />
+The file format may appear in either the list of "Preferred formats" or the list of "Non-preferred formats." As long as the file format is mentioned in one of the two lists.</p>
+<h2 id="save-button">Save button<a class="headerlink" href="#save-button" title="Permanent link">&para;</a></h2>
+<p>Use the 'Save' option to save to current state of your form at any time. You will be able to load the field values at some other moment back again to the form.<br />
+In order to load the form with your saved value's:  </p>
+<ol>
+<li>Click on the dot with your initials on the top right of the form</li>
+<li>From the drop-down menu choose "Submissions"</li>
+<li>Select a saved from the "Saved Forms" table</li>
+</ol>
+<h2 id="submit-data-button">Submit Data button<a class="headerlink" href="#submit-data-button" title="Permanent link">&para;</a></h2>
+<p>Deposits your form data if validation succeeds.
+In order to track the progress of the deposit:</p>
+<ol>
+<li>Click on the dot with your initials on the top right of the form </li>
+<li>From the drop-down menu choose "Submissions"</li>
+<li>
+<p>In the "Submitted forms" table you can see the progress of your submission to the three endpoints. A green dot with a checkmark indicates a successful submission to that endpoint:</p>
+<ol>
+<li>Software Heritage - API (SWH Archival request of the gitHub repository and retrieve the SWHID)</li>
+<li>Dataverse EOSC (Deposit datafile(s) with their relevant metadata, including the SWHID)</li>
+<li>Software Heritage - SWORD2 (Updates the SWH archive with the Dataverse PID (DOI))</li>
+</ol>
+</li>
+</ol>
+<h2 id="fields-summary-table">Fields Summary table<a class="headerlink" href="#fields-summary-table" title="Permanent link">&para;</a></h2>
+<p>The table below is an overview of all the form fields, and indicates the target system</p>
+<table>
+<thead>
+<tr>
+<th>Fieldname</th>
+<th align="center">Requirement</th>
+<th align="center">mapping target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td align="center">required</td>
+<td align="center">Dataverse &amp; SWH</td>
+</tr>
+<tr>
+<td>Subject</td>
+<td align="center">optional</td>
+<td align="center">Dataverse &amp; SWH</td>
+</tr>
+<tr>
+<td>Author</td>
+<td align="center">required</td>
+<td align="center">Dataverse &amp; SWH</td>
+</tr>
+<tr>
+<td>Email</td>
+<td align="center">required</td>
+<td align="center">Dataverse</td>
+</tr>
+<tr>
+<td>Additional Author</td>
+<td align="center">optional</td>
+<td align="center">Dataverse or SWH</td>
+</tr>
+<tr>
+<td>Repository URL</td>
+<td align="center">required</td>
+<td align="center">SWH</td>
+</tr>
+<tr>
+<td>Description</td>
+<td align="center">required</td>
+<td align="center">Dataverse</td>
+</tr>
+<tr>
+<td>Files</td>
+<td align="center">optional</td>
+<td align="center">Dataverse</td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../research_prerequisites/" class="btn btn-neutral float-left" title="Prerequisites"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../develop_intro/" class="btn btn-neutral float-right" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../research_prerequisites/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../develop_intro/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
